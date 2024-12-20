@@ -5,20 +5,29 @@ body{
     text-align: center;
 }
 
-.container{
-    color: white;
+.container1{
     background-image: url("./assets/img/cosmic-timetraveler-ik2BN5dI6tE-unsplash.jpg");
     background-size: cover;
     background-repeat: inherit;
+    color: white;
+    justify-content: space-between;
+}
+.container1, .container2{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.conyainer2{
+    text-align: left;
+    justify-content: left;
 }
 
 .title{
     padding: 0 10vw;
-    margin-top: 25%;
+    height: 90px;
+    margin-top: 30%;
     background-color: rgb(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -44,3 +53,78 @@ img{
     width: 60px;
     height: 80px;
 }
+
+.top{
+    margin: 10% 40px 0;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.middle{
+    display: flex;
+    align-items: flex-start;
+    /* text-align: left; */
+}
+form{
+    /* width: 90%; */
+    margin: 0 30px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    /* align-items: baseline; */
+}
+
+fieldset{
+    text-align: left;
+    border: none;
+    margin-top: 5%;
+    /* display: flex;
+    flex-direction: column;
+    
+    gap: 20px; */
+}
+
+legend{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-sect{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 20px;
+    border: solid 1px #E5E7EB;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+input:invalid{
+    border-color: red;
+}
+input:focus {
+    border-color: blue;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  .create{
+    width: 200px;
+    height: 40px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #login > a{
+    color: #596D48;
+    text-decoration: none;
+  }

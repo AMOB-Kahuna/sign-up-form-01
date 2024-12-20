@@ -9,7 +9,7 @@
     <title>Sign up</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="title">
             <img src="./assets/img/odin-lined.png" alt="odin logo">
             <p>ODIN</p>
@@ -18,16 +18,59 @@
             <p>Photo by <a href="https://unsplash.com/@cosmictimetraveler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cosmic Timetraveler</a> on <a href="https://unsplash.com/photos/aerial-photography-of-river-between-mountains-during-daytime-ik2BN5dI6tE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
         </div>
     </div>
-    <div class="container">
+    <div class="container2">
         <div class="top">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Signup now to get you started.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Signup now to get you started.</p>
             <p>You know you want to.</p>
         </div>
         <div class="middle">
-            
-        </div>
-        <div class="bottom">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    
+                    <div class="form-sect">
+                        <div class="form-input">
+                            <label for="first-name">FIRST NAME</label>
+                            <input class="focus" type="text" name="first-name">
+                        </div>
+                        <div class="form-input">
+                            <label for="last-name">LAST NAME</label>
+                            <input class="focus" type="text" name="last-name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-sect">
+                        <div class="form-input">
+                            <label for="email">EMAIL</label>
+                            <input class="focus" type="email" name="email" id="">
+                        </div>
+    
+                        <div class="form-input">
+                            <label for="phone-num">PHONE NUMBER</label>
+                            <input class="focus" type="tel" name="phone-num" id="">
+                        </div>
+                    </div>
+    
+                    <div class="form-sect">
+                        <div class="form-input">
+                            <label for="password">PASSWORD</label>
+                            <input class="focus" id="pass1" type="password" name="password" id="">
+                        </div>
+        
+                        <div class="form-input">
+                            <label for="confirm-pass">CONFIRM PASSWORD</label>
+                            <input class="focus" id="pass2" type="password" name="confirm-pass" id="">
+                        </div>
+                    </div>
+                </fieldset>
 
+                <div>
+                    <button class="create" type="submit">Create Account</button>
+    
+                    <p id="login">Already have an account? <a href="#">Log in</a></p>
+                </div>
+
+            </form>
         </div>
     </div>
 </body>
